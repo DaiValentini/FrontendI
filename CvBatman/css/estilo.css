@@ -1,0 +1,68 @@
+/* Estilos generales */
+h1,h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgba(196, 196, 196, 1);
+    color: rgba(0, 86, 119, 1);
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    height: 25px;
+}
+/* Header */
+header{
+    background-color: rgba(229, 229, 229, 1);
+    height: 189px;
+}
+#Logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+}
+.tituloprincipal{
+    font-size: 35px;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    height: 40px;
+}
+
+/* Main */
+.listadatos {
+    font-style: italic;
+}
+.secciones {
+    padding: 10%;
+    margin: 0 auto;
+    width: 70%;
+}
+ul,dl {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+}
+dl dd{
+    margin-left: 75px;
+}
+span {
+     font-weight: 700;
+     line-height: 30px;
+}
+
+/* Footer */
+footer{
+    background-color:rgba(0, 86, 119, 1);
+    height: 37px;
+
+}
+p{
+    text-align: center;
+    font-family: "Times New Roman";
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+
