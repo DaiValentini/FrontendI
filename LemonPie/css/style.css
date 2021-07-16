@@ -1,0 +1,63 @@
+/* Estilos generales */
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+/* Si descargo la familia de fuentes
+   @font-face {
+    src: url("../fonts/Inter/static/Inter-Bold.ttf")
+    font-family: "Inter-Bold"} */
+ 
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    font-size: 16px;}
+
+/*Header */
+/* Main */
+h1 {
+    font-weight: 900;
+    color: white;
+    font-size: 48px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+h3{
+    font-style: italic;
+    font-size: 18px;
+}
+.icono-receta {
+    padding: 10px;
+}
+.icono-lista {
+    padding: 10px;
+}
+.banner {
+    background:thistle url("../img/lemon-pie.svg") no-repeat fixed;
+    height: 460px;
+    background-size: cover; /* Ocupa toda la pagina */
+    color: white;
+}
+.cuerpo {
+    padding: 3%;
+}
+.merengue {
+    color:orange;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(196, 196, 196, 1);
+    height: 64px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+footer p {
+    margin-left: 40%;
+}
