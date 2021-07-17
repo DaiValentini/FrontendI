@@ -5,10 +5,10 @@ h1,h2 {
     font-size: 20px;
     background-color: rgba(196, 196, 196, 1);
     color: rgba(0, 86, 119, 1);
-    text-align: left;
     letter-spacing: 5px;
     word-spacing: 5px;
     height: 25px;
+    padding: 10px;
 }
 /* Header */
 header{
@@ -21,51 +21,52 @@ header{
     margin-right: auto;
     width: 0%;
 }
+
 .tituloprincipal{
     font-size: 35px;
-    text-align: center;
     word-spacing: 5px;
     letter-spacing: 10px;
     height: 40px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 /* Main */
-.listadatos {
-    font-style: italic;
-}
 .secciones {
-    padding: 10%;
-    margin: 0 auto;
+    margin: 100px auto;
     width: 70%;
 }
+span {
+    font-weight: 700;
+    line-height: 30px;
+}
+.personal span{
+    font-style: italic;
+}
+
 ul,dl {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 17px;
 }
-dl dd{
+dd{
     margin-left: 75px;
 }
-span {
-     font-weight: 700;
-     line-height: 30px;
-}
+
 
 /* Footer */
 footer{
     background-color:rgba(0, 86, 119, 1);
-    height: 37px;
-
-}
-p{
     text-align: center;
     font-family: "Times New Roman";
     color: white;
     font-weight: 700;
     font-size: 20px;
+    letter-spacing: 5px;
 }
-.icono-ig {
-    padding: 20px;
+footer a {
+    color: white;
 }
+
 

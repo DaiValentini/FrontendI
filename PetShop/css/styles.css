@@ -1,0 +1,135 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+ul a {
+    color: white;
+}
+/* Header */
+.menusuperior {
+    color: white;
+    font-size: 10px;
+    background-color: rgba(34, 34, 34, 1);}
+.menu {
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+    font-size: 13px;
+}
+h1 {
+    font-size: 20px; 
+    color: rgba(60, 35, 19, 1);
+    font-weight: 700;
+}
+h1 span {
+    color: white;
+}
+ul span {
+    margin-left: 10px;
+}
+/* Main */
+.banner {
+    background: coral url("../img/foto.png") no-repeat fixed;
+    height: 500px;
+    background-size: cover;
+    color: rgba(60, 35, 19, 1);
+    font-size: 16px;
+    text-align: center;
+}
+.banner h2 {
+    font-size: 30px;
+    background-color: white;
+    padding: 10px;
+}
+.banner a {
+    color: white;
+    
+}
+.banner .boton {
+    background-color:rgba(240, 168, 62, 1);
+    padding: 10px;
+    text-align: right;
+}
+.huellagrande {
+    color: rgba(240, 168, 62, 1);
+    font-size: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+}
+.productos h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(60, 35, 19, 1);
+    text-align: center;
+}
+.productos ul a {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(102, 102, 102, 1);
+}
+.productos h3 {
+    color: rgba(60, 35, 19, 1);
+    font-weight: 500;
+    font-size: 15px;
+}
+.productos h4 {
+    color: rgba(240, 168, 62, 1);
+    font-weight: 500;
+    font-size: 15px;
+}
+.productos ul {
+    text-align: center;
+}
+.productos ul li {
+    display: inline-block;
+    padding: 10px;
+}
+.contacto {
+    background-color: rgba(60, 35, 19, 1);
+}
+.contacto div {
+    margin-left: 20px;
+    padding: 20px;
+}
+.contacto h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.contacto h4 {
+    color: rgba(138, 135, 135, 1);
+    font-size: 10px;
+    font-weight: 700;
+}
+.contacto i {
+    color: white;
+    background-color: rgba(138, 135, 135, 1);
+    padding: 20px;
+}
+h5 {
+    font-size: 20px; 
+    color: white;
+    font-weight: 700;
+}
+h5 span {
+    color:rgba(240, 168, 62, 1);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(34, 34, 34, 1);
+    font-size: 10px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    height: 20px;
+}

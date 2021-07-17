@@ -6,65 +6,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="menusuperior">
             <p>Grandes ofertas en comederos</p>
-            <p>Español</p>
-            <p>$ARG</p>
+            <ul>
+                <li>Español</li>
+                <li>$ARG</li>
+
+            </ul>
+
         </div>
-        <div>
+        <div class="menu">
             <a href="#">
-                <img src="img/Cat.svg" alt="Gato">
-                <h1>Front<span>Cat&Dog</span></h1>
-                <img src="img/Dog.svg" alt="Perro">
+                <h1><img src="img/Cat.svg" alt="Gato">
+                    Front<span>Cat&Dog</span>
+                    <img src="img/Dog.svg" alt="Perro">
+                </h1>
+
             </a>
             <nav>
-                <ul type=none>
-                    <li><img src="img/pawprint1.svg" alt="Huellita"><a href="#">Categorías</a></li>
-                    <li><img src="img/pawprint1.svg" alt="Huellita"><a href="#">Pets</a></li>
-                    <li><img src="img/pawprint1.svg" alt="Huellita"><a href="#">Nosotros</a></li>
-                    <li><img src="img/pawprint1.svg" alt="Huellita"><a href="#">Contactanos</a></li>
+                <ul>
+                    <li><i class="fas fa-paw"></i><span><a href="#">Categorías</a></span></li>
+                    <li><i class="fas fa-paw"></i><span><a href="#">Pets</a></span></li>
+                    <li><i class="fas fa-paw"></i><span><a href="#">Nosotros</a></span></li>
+                    <li><i class="fas fa-paw"></i><span><a href="#">Contactanos</a></span></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <img src="img/foto.png" alt="Portada">
-            <p>¡Es un placer tenerte aquí!</p>
+        <section class="banner">
+            <h2>¡Es un placer tenerte aquí!</h2>
             <p>¡Comederos en descuento!</p>
             <a href="#">
-                <p>COMEDEROS</p>
+                <span class="boton">COMEDEROS</span>
             </a>
         </section>
-        <section>
-            <img src="img/patita.svg" alt="Imagen patita">
-            <h1>Productos Destacados</h1>
+        <section class="productos">
+            <i class="fas fa-paw huellagrande"></i>
+            <h2>Productos Destacados</h2>
             <ul>
                 <li><a href="#">Comederos</li></a>
+                <li>-</li>
                 <li><a href="#">Accesorios</li></a>
+                <li>-</li>
                 <li><a href="#">Comida</li></a>
             </ul>
-            
+
             <div>
                 <img src="img/churrasquito.svg" alt="Juguete Churrasquito">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+                <h3>Juguete Churrasquito</h3>
+                <h4>$150</h4>
             </div>
             <div>
                 <img src="img/comedero.svg" alt="Comedero para perro">
-                <p>Comedero para perros</p>
-                <p>$250</p>
+                <h3>Comedero para perros</h3>
+                <h4>$250</h4>
             </div>
             <div>
                 <img src="img/Huesito.svg" alt="Juguete huesito">
-                <p>Juguete Huesito</p>
-                <p>$650</p>
-            </div> 
+                <h3>Juguete Huesito</h3>
+                <h4>$650</h4>
+            </div>
+        </section>
+        <section class="contacto">
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Localidad</h3>
+                <h4>Calle-Provincia</h4>
+            </div>
+            <div><i class="fas fa-phone-alt"></i>
+                <h3>Teléfono</h3>
+                <h4>Número de teléfono</h4>
+            </div>
+            <div><i class="fas fa-envelope"></i>
+                <h3>Correo elétronico</h3>
+                <h4>Dirección de correo</h4>
+            </div>
+
+            <a href="#">
+                <h5><img src="img/Cat.svg" alt="Gato">
+                    Front<span>Cat&Dog</span>
+                    <img src="img/Dog.svg" alt="Perro">
+                </h5>
+
+            </a>
         </section>
     </main>
     <footer>
