@@ -4,7 +4,7 @@
 ## *Receta Lemon Pie*
 [Link aquí](https://daivalentini.github.io/FrontendI/LemonPie/)  
 
-<a href= "https://daivalentini.github.io/FrontendI/LemonPie/" target= "_blank"> Link </a>
+<a target= "_blank" href= "https://daivalentini.github.io/FrontendI/LemonPie/"> Link </a>
 ***
 ## *CV Batman*
 ***
