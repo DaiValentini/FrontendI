@@ -1,0 +1,103 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+/* Header */
+.header1 {
+    background-color: rgba(28, 209, 176, 1);
+    font-size: 15px;
+    padding: 10px 0px 10px 20px;
+}
+header {
+    background-color: rgba(0, 102, 159, 1);
+    font-size: 20px;
+    padding: 10px;
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+/* Main */
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    height: 529px;
+    margin: 150px 70px;
+}
+.card-img {
+    background-repeat: no-repeat;
+    background-color: rgb(174, 174, 250);
+    border-radius: 16px 16px 0px 0px;
+    height: 195px;
+    position: relative;
+}
+.heart {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+    color: rgba(204, 36, 36, 1);
+}
+.card-img-batman {
+    background-image: url('../img/fondoBatman.svg');
+}
+
+.card-img-harley {
+    background-image: url('../img/fondoHarley.svg');
+}
+.card-text {
+    background-color: rgba(243, 243, 243, 1);
+    height: 336px;
+    font-size: 16px;
+    position: relative;
+    padding: 85px 20px 0px 20px;
+    
+}
+.card-text p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+h2 {
+    font-size: 25x;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.img-avatar {
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 60px);
+    border-radius: 50%;
+}
+.bottom {
+    position: absolute;
+    background-color:rgba(0, 102, 159, 1) ;
+    font-size: 15px;
+    text-align: center;
+    width: 130px;
+    margin-top: 20px;
+    padding: 10px;
+    left: calc(50% - 65px);
+}
+.bottom a {
+    color: white;
+    text-decoration: none;
+}
+/* Footer */
+footer {
+    background-color: rgba(0, 102, 159, 1);
+    font-size: 16px;
+    color: white;
+    padding: 20px;
+}
