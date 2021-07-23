@@ -1,11 +1,6 @@
-/* Estilos generales */
-/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
-/* Si descargo la familia de fuentes
-   @font-face {
-    src: url("../fonts/Inter/static/Inter-Bold.ttf")
-    font-family: "Inter-Bold"} */
- 
+
 body{
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -20,6 +15,7 @@ h1 {
     font-weight: 900;
     color: white;
     font-size: 48px;
+    margin-left: 20px;
 }
 h2{
     font-size: 30px;
@@ -38,12 +34,21 @@ h3{
 }
 .banner {
     background:thistle url("../img/lemon-pie.svg") no-repeat fixed;
-    height: 460px;
+    opacity: 0.9;
+    height: 450px;
     background-size: cover; /* Ocupa toda la pagina */
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.banner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 20px;
 }
 .cuerpo {
-    padding: 3%;
+    margin: 50px 20px 50px 30px;
 }
 .merengue {
     color:orange;
