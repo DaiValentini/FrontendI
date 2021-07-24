@@ -1,4 +1,9 @@
 /* Estilos generales */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
@@ -16,12 +21,33 @@ ul a {
 /* Header */
 .menusuperior {
     color: white;
-    font-size: 10px;
-    background-color: rgba(34, 34, 34, 1);}
+    font-size: 12px;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.menusuperior ul {
+    display: flex;
+}
+.menusuperior ul li {
+    padding: 15px;
+}
 .menu {
     background-color: rgba(240, 168, 62, 1);
     color: white;
-    font-size: 13px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.menu nav ul {
+    display: flex;
+}
+.menu nav ul li {
+    padding: 15px;
 }
 h1 {
     font-size: 20px; 
@@ -40,79 +66,92 @@ ul span {
     height: 500px;
     background-size: cover;
     color: rgba(60, 35, 19, 1);
-    font-size: 16px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
 }
 .banner h2 {
     font-size: 30px;
     background-color: white;
-    padding: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+.banner p {
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 130px;
 }
 .banner a {
     color: white;
+    margin-top: 20px;
     
 }
 .banner .boton {
     background-color:rgba(240, 168, 62, 1);
-    padding: 10px;
-    text-align: right;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 170px;
+}
+.productos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
 }
 .huellagrande {
     color: rgba(240, 168, 62, 1);
     font-size: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 0%;
 }
-.productos h2 {
+.productos1 h2 {
     font-size: 40px;
     font-weight: 700;
     color: rgba(60, 35, 19, 1);
     text-align: center;
 }
-.productos ul a {
+.productos1 ul a {
     font-weight: 400;
     font-size: 15px;
     color: rgba(102, 102, 102, 1);
 }
-.productos h3 {
+.productos1 ul {
+    display: flex;
+    justify-content: center;
+}
+.productos1 ul li {
+    padding: 15px;
+}
+.productos2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 200px 0px;
+}
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(251, 250, 246, 1);
+}
+.producto h3 {
     color: rgba(60, 35, 19, 1);
     font-weight: 500;
     font-size: 15px;
+    padding: 10px;
 }
-.productos h4 {
+.producto h4 {
     color: rgba(240, 168, 62, 1);
     font-weight: 500;
     font-size: 15px;
-}
-.productos ul {
-    text-align: center;
-}
-.productos ul li {
-    display: inline-block;
-    padding: 10px;
+    padding: 15px;
 }
 .contacto {
     background-color: rgba(60, 35, 19, 1);
-}
-.contacto div {
-    margin-left: 20px;
-    padding: 20px;
-}
-.contacto h3 {
-    color: white;
-    font-weight: 700;
-    font-size: 20px;
-}
-.contacto h4 {
-    color: rgba(138, 135, 135, 1);
-    font-size: 10px;
-    font-weight: 700;
-}
-.contacto i {
-    color: white;
-    background-color: rgba(138, 135, 135, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 h5 {
@@ -123,13 +162,36 @@ h5 {
 h5 span {
     color:rgba(240, 168, 62, 1);
 }
+.infocontacto {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.infocontacto h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.infocontacto h4 {
+    color: rgba(138, 135, 135, 1);
+    font-size: 10px;
+    font-weight: 700;
+}
+.infocontacto i {
+    color: white;
+    background-color: rgba(138, 135, 135, 1);
+    padding: 15px;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 20px;
+}
 
 /* Footer */
 footer {
     background-color: rgba(34, 34, 34, 1);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: 700;
     color: white;
     text-align: center;
-    height: 20px;
+    padding: 20px;
 }
