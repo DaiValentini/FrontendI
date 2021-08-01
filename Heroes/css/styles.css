@@ -144,3 +144,11 @@ footer {
         margin-top: 5rem;
     }
 }
+@media screen and (max-width: 480px) {
+   .card {
+       width:30rem;
+   } 
+   .card-text {
+       height: 70rem;
+   }
+}
