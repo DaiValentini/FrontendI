@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    font-size: 62.5%;
+}
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -29,6 +32,9 @@ header {
     align-items: center;
     z-index: 999;
     position: relative;
+}
+.hamburguesa {
+    display: none;
 }
 header div {
     display: flex;
@@ -66,18 +72,18 @@ section {
     background-color: thistle;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 490px;
-    height: 350px;
+    width: 48rem;
+    height: 35rem;
     margin: 80px 5px 80px 0px;
-    border-radius: 10px;
+    border-radius: 1rem;
     
 }
 .seccion2 {
-    width: 490px;
-    height: 350px;
+    width: 48rem;
+    height: 35rem;
     background-color: white;
     margin: 80px 0px 80px 5px;
-    border-radius: 10px;
+    border-radius: 1rem;
     
 }
 .seccion21 {
@@ -130,4 +136,36 @@ h4 {
 footer li {
     padding: 10px;
     margin-left: 20px;
+}
+
+@media screen and (max-width:768px) {
+    header nav {
+        display: none;
+    }
+    .hamburguesa {
+        display: unset;
+        color: white;
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+    section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .seccion1 {
+        margin: 4rem 0 1rem 0;
+    }
+    .seccion2 {
+        margin:1rem 0 4rem 0;
+    }
+}
+@media screen and (max-width:480px) {
+    .seccion1, .seccion2, .seccion21{
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
 }
