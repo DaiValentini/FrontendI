@@ -1,13 +1,16 @@
 /* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 * {
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+}
+html {
+    font-size: 62.5%;
 }
 a {
     text-decoration: none;
@@ -21,36 +24,39 @@ ul a {
 /* Header */
 .menusuperior {
     color: white;
-    font-size: 12px;
+    font-size: 1.2rem;
     background-color: rgba(34, 34, 34, 1);
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 1rem;
     align-items: center;
 }
 .menusuperior ul {
     display: flex;
 }
 .menusuperior ul li {
-    padding: 15px;
+    padding: 1.5rem;
+}
+.hamburguesa {
+    display: none;
 }
 .menu {
     background-color: rgba(240, 168, 62, 1);
     color: white;
-    font-size: 15px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 2rem;
     align-items: center;
 }
 .menu nav ul {
     display: flex;
 }
 .menu nav ul li {
-    padding: 15px;
+    padding: 1.5rem;
 }
 h1 {
-    font-size: 20px; 
+    font-size: 2rem; 
     color: rgba(60, 35, 19, 1);
     font-weight: 700;
 }
@@ -58,12 +64,12 @@ h1 span {
     color: white;
 }
 ul span {
-    margin-left: 10px;
+    margin-left: 1rem;
 }
 /* Main */
 .banner {
-    background: coral url("../img/foto.png") no-repeat fixed;
-    height: 500px;
+    background: rgb(168, 225, 240) url("../img/foto.png") no-repeat fixed;
+    height: 50rem;
     background-size: cover;
     color: rgba(60, 35, 19, 1);
     display: flex;
@@ -72,48 +78,51 @@ ul span {
     align-items:flex-end;
 }
 .banner h2 {
-    font-size: 30px;
+    font-size: 3rem;
     background-color: white;
-    padding: 15px;
-    border-radius: 5px;
-    margin-right: 50px;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-right: 5rem;
 }
 .banner p {
-    font-size: 16px;
-    padding: 20px;
+    font-size: 1.6rem;
+    padding: 2rem;
+    font-weight: 700;
     text-align: center;
-    margin-right: 130px;
+    margin-right: 13rem;
+    
 }
 .banner a {
     color: white;
-    margin-top: 20px;
+    margin-top: 2rem;
     
 }
 .banner .boton {
     background-color:rgba(240, 168, 62, 1);
-    padding: 15px;
-    border-radius: 5px;
-    margin-right: 170px;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    margin-right: 17rem;
 }
 .productos1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 3rem;
 }
 .huellagrande {
     color: rgba(240, 168, 62, 1);
     font-size: 100px;
 }
 .productos1 h2 {
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 700;
     color: rgba(60, 35, 19, 1);
     text-align: center;
 }
 .productos1 ul a {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1.5rem;
     color: rgba(102, 102, 102, 1);
 }
 .productos1 ul {
@@ -121,41 +130,41 @@ ul span {
     justify-content: center;
 }
 .productos1 ul li {
-    padding: 15px;
+    padding: 1.5rem;
 }
 .productos2 {
     display: flex;
     justify-content: space-around;
-    padding: 50px 0px 200px 0px;
+    padding: 5rem 0 20rem 0;
 }
 .producto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
     background-color: rgba(251, 250, 246, 1);
 }
 .producto h3 {
     color: rgba(60, 35, 19, 1);
     font-weight: 500;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 1.5rem;
+    padding: 1rem;
 }
 .producto h4 {
     color: rgba(240, 168, 62, 1);
     font-weight: 500;
-    font-size: 15px;
-    padding: 15px;
+    font-size: 1.5rem;
+    padding: 1.5rem;
 }
 .contacto {
     background-color: rgba(60, 35, 19, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2rem;
 }
 h5 {
-    font-size: 20px; 
+    font-size: 2rem; 
     color: white;
     font-weight: 700;
 }
@@ -165,33 +174,74 @@ h5 span {
 .infocontacto {
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 3rem;
 }
 .infocontacto h3 {
     color: white;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 2rem;
 }
 .infocontacto h4 {
     color: rgba(138, 135, 135, 1);
-    font-size: 10px;
+    font-size: 1rem;
     font-weight: 700;
 }
 .infocontacto i {
     color: white;
     background-color: rgba(138, 135, 135, 1);
-    padding: 15px;
+    padding: 1.5rem;
     border-radius: 50%;
-    margin-right: 20px;
-    font-size: 20px;
+    margin-right: 2rem;
+    font-size: 2rem;
 }
 
 /* Footer */
 footer {
     background-color: rgba(34, 34, 34, 1);
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 2rem;
 }
+@media screen and (max-width: 768px){
+    .menu nav ul {
+        display: none;
+      }
+    .menu nav .hamburguesa {
+        display: unset;
+      }
+    .productos2 {
+        flex-direction: column;
+        align-items: center;
+     }
+     .producto {
+         margin-top: 2rem;
+     }
+  }
+  @media screen and (max-width:480px){
+      .menusuperior {
+          display: none;
+        }
+      
+      .banner {
+          justify-content: center;
+          align-items: center;
+        }
+       .banner h2 {
+          margin-right: 0;
+        } 
+        .banner p {
+            margin-right: 0;
+        }
+        .banner .boton {
+            margin-right: 0;
+        }
+        .contacto {
+       flex-direction: column;
+       margin: 0;
+    }
+    .contacto div {
+     order:1;
+    }
+  }
