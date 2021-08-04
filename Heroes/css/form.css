@@ -104,3 +104,9 @@ footer {
     padding: 2rem;
     text-align: center;
 }
+@media screen and (max-width: 600px) {
+    .contenedor {
+        margin: 5% auto;
+        max-width: 70%;
+    }
+}

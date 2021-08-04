@@ -151,7 +151,7 @@ footer {
 @media screen and (max-width: 768px) {
     .contenedor1, .contenedor2 {
         flex-direction: column;
-        margin: auto;
+        align-items: center;
     }
     .contenedor{
         margin: 5rem 0 10rem 0;
@@ -164,7 +164,7 @@ footer {
 }
 @media screen and (max-width: 480px) {
    .card {
-       width:100%;
+       width:80%;
    } 
     .card-text {
        height: 100%;
