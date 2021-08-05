@@ -47,6 +47,13 @@ header {
     text-decoration: none;
     color: white;
 }
+nav ul li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f6fa";
+    color: #fff;
+    margin-right: 10px;
+}
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -123,23 +130,20 @@ h2 {
     height: 15rem;
     border: 0.3rem solid;
 }
-.bottom {
-    /* position: absolute;*/
-    background-color:rgba(0, 102, 159, 1) ;
+.boton {
+    background-color:rgba(0, 102, 159, 1); 
     font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    padding: 1.5rem;
     width: 12rem; 
-    margin: 3rem auto;
-    border-radius: 15%;
-    border: 0.2rem solid;
-    
-}
-.bottom a {
+    margin: 1rem auto 4rem auto;
+    border: 0.2rem solid; 
+    padding: 10px;
+} 
+.boton a {
     color: white;
     text-decoration: none;
+    text-align: center; 
 }
+
 /* Footer */
 footer {
     background-color: rgba(0, 102, 159, 1);
