@@ -37,6 +37,12 @@ ul a {
 .menusuperior ul li {
     padding: 1.5rem;
 }
+.menusuperior ul li::after {
+    content:'\f078'; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin-left: 15px;
+}
 .hamburguesa {
     display: none;
 }
@@ -54,6 +60,13 @@ ul a {
 }
 .menu nav ul li {
     padding: 1.5rem;
+}
+nav ul li ::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f1b0";
+    color: #fff;
+    margin-right: 10px;
 }
 h1 {
     font-size: 2rem; 
@@ -108,7 +121,7 @@ ul span {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 .huellagrande {
     color: rgba(240, 168, 62, 1);
@@ -119,6 +132,7 @@ ul span {
     font-weight: 700;
     color: rgba(60, 35, 19, 1);
     text-align: center;
+    margin: 10px;
 }
 .productos1 ul a {
     font-weight: 400;
@@ -126,16 +140,105 @@ ul span {
     color: rgba(102, 102, 102, 1);
 }
 .productos1 ul {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 }
 .productos1 ul li {
     padding: 1.5rem;
 }
+.productos1 ul li::before{
+    content: '-';
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 20px;
+}
+.productos1 ul li:first-child::before{
+    content:"";
+}
+.contenedor1 {
+    margin: 5% auto;
+    max-width: 400px;
+}
+.contenedor1 form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    visibility: hidden;
+}
+.contenedor1 input[type=text], .contenedor1 input[type=email], .contenedor1 input[type=tel] {
+    font-size: 15px;
+    background-color:rgba(60, 35, 19, 1);
+    border-radius: 15px;
+    padding: 10px;
+    color: white;
+}
+.contenedor1 input[type=reset], .contenedor1 input[type=submit] {
+   color: white;
+   border-radius: 15px;
+   width: 40%;
+   padding: 10px;
+   font-size: 20px;
+   border: 2px solid black;
+ }
+.contenedor1 input[type=reset] {
+   background-color: rgba(138, 135, 135, 1);
+}
+.contenedor1 input[type=submit]{
+    background-color: rgba(240, 168, 62, 1);
+ }
+
+.contenedor1 h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(60, 35, 19, 1);
+    font-weight: 700;
+}
+form div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contenedor2 {
+    background-color: rgba(240, 168, 62, 1);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.contenedor2 form {
+    width: 60%;
+}
+.avion {
+    margin: auto 15px;
+}
+.contenedor2 h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contenedor2 input[type="email"] {
+    background-color: white;
+    border-radius: 15px;
+    font-size: 15px;
+    width: 60%;
+  }
+.contenedor2 input[type="submit"] {
+    background-color: rgba(60, 35, 19, 1);
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    width: 30%;
+}
+.contenedor2 div {
+    margin-bottom: 30px;
+}
 .productos2 {
     display: flex;
     justify-content: space-around;
-    padding: 5rem 0 20rem 0;
+    padding: 5rem 0 2rem 0;
 }
 .producto {
     display: flex;
@@ -174,7 +277,7 @@ h5 span {
 .infocontacto {
     display: flex;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 .infocontacto h3 {
     color: white;
@@ -218,6 +321,16 @@ footer {
      .producto {
          margin-top: 2rem;
      }
+     .contenedor2 {
+      flex-direction: column;
+      padding: 30px;
+    }
+    .contenedor2 input[type="submit"] {
+        margin-right: 0px;
+    }
+    .contenedor2 form {
+        width: 100%;
+    }
   }
   @media screen and (max-width:480px){
       .menusuperior {
@@ -243,5 +356,11 @@ footer {
     }
     .contacto div {
      order:1;
+    }
+    .contenedor2 input[type="submit"] {
+        font-size: 10px;
+    }
+    .contenedor2 input[type="email"] {
+        font-size: 10px;
     }
   }

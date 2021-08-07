@@ -10,6 +10,18 @@
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .contenedor1 input::placeholder {
+            color: white;
+        }
+
+        .contenedor2 input::placeholder {
+            color: black;
+            font-weight: 500;
+            text-align: center;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -17,11 +29,13 @@
         <div class="menusuperior">
             <p>Grandes ofertas en comederos</p>
             <ul>
-                <li>Español</li>
-                <li>$ARG</li>
-
+                <a href="#">
+                    <li>Español</li>
+                </a>
+                <a href="#">
+                    <li>$ARG</li>
+                </a>
             </ul>
-
         </div>
         <div class="menu">
             <a href="#">
@@ -33,14 +47,14 @@
             </a>
             <nav>
                 <ul>
-                    <li><i class="fas fa-paw"></i><span><a href="#">Categorías</a></span></li>
-                    <li><i class="fas fa-paw"></i><span><a href="#">Pets</a></span></li>
-                    <li><i class="fas fa-paw"></i><span><a href="#">Nosotros</a></span></li>
-                    <li><i class="fas fa-paw"></i><span><a href="#">Contactanos</a></span></li>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Pets</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Contactanos</a></li>
                 </ul>
                 <i class="fas fa-bars hamburguesa"></i>
             </nav>
-            
+
         </div>
     </header>
 
@@ -54,15 +68,13 @@
             </a>
 
         </section>
-        <section>
+        <section class="productos">
             <div class="productos1">
                 <i class="fas fa-paw huellagrande"></i>
                 <h2>Productos Destacados</h2>
                 <ul>
                     <li><a href="#">Comederos</li></a>
-                    <li>-</li>
                     <li><a href="#">Accesorios</li></a>
-                    <li>-</li>
                     <li><a href="#">Comida</li></a>
                 </ul>
             </div>
@@ -84,6 +96,36 @@
                     <h4>$650</h4>
                 </div>
             </div>
+        </section>
+        <section class="formularios">
+            <div class="contenedor1">
+                <h2>Contáctanos</h2>
+                <form action="" method="post">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+                    <label for="email">Ingresá tu correo electrónico</label>
+                    <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico">
+                    <label for="tel">Teléfono</label>
+                    <input type="tel" name="telefono" id="tel" placeholder="Teléfono">
+                    <div>
+                        <input type="reset" value="Resetear">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="contenedor2">
+                <h2><i class="far fa-paper-plane avion"></i>Suscríbete para más novedades</h2>
+                <form>
+                    <label for="email">Ingresá tu correo electrónico</label>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico">
+                        <input type="submit" value="Suscribirme">
+                    </div>
+
+                </form>
+
+            </div>
+
         </section>
         <section class="contacto">
             <div>
