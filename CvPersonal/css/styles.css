@@ -24,7 +24,7 @@ header {
     height: 300px;
     position: relative;
 }
-header:before {
+header::before {
         content:'';
         position: absolute;
         top: 0;
