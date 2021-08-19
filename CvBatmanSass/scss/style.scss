@@ -1,0 +1,113 @@
+@import "variables";
+/* ***** Estilos generales***** */
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+ul {
+    list-style-type: none;
+}
+/* ***** Header ***** */
+header {
+
+    #Logo {
+        background-color: $color-fondo;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+     
+    }
+    div {
+        h1 {
+            font-size: 35px;
+            text-align: center;
+            color: $color-letra-principal;
+            background-color: $color-fondo-principal;
+            letter-spacing: 10px;
+            word-spacing: 5px;
+            @media screen and (max-width: 480px) {
+            font-size: 25px;
+            letter-spacing: 5px;
+                
+            }
+        }
+    }
+}
+ 
+/* ***** Main ***** */
+main {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+    .secciones {
+        width: 70%;
+        @media screen and (max-width: 768px) {
+            width: 90%;
+            
+        }
+        @media screen and (max-width: 480px) {
+            width: 100%;
+            
+        }
+        section {
+            margin: 10px;
+        }
+        span {
+            font-weight: 700;
+            font-style: italic;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        h2 {
+            font-size: 20px;
+            color: $color-letra-principal;
+            background-color: $color-fondo-principal;
+            letter-spacing: 5px;
+            word-spacing: 5px;
+            padding: 10px;
+            margin-bottom: 20px;
+            @media screen and (max-width: 480px) {
+                font-size: 15px;
+                    
+                }
+
+        }
+        .personal {
+            li {
+                font-weight: 400;
+                font-size: 15px;
+            }
+        }
+        dl {
+            font-weight: 400;
+            font-size: 15px;
+            span {
+                font-style: normal;
+            }
+            dd {
+                margin-left: 80px;
+            }
+
+        }
+    }
+
+}
+/* ***** Footer ***** */
+footer{
+    background-color: $color-letra-principal;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 20px;
+    a {
+        color: white;
+    }
+}
+
+ 
