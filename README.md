@@ -7,6 +7,9 @@ A continuación se listan los proyectos realizados durante el cursado de la mate
 ## *CV Batman* 🦇  
  <a href= "https://daivalentini.github.io/FrontendI/CvBatman/" target="_blank"> Link aquí </a>
 ***
+## *CV Batman con Sass* 🦇  
+ <a href= "https://daivalentini.github.io/FrontendI/CvBatmanSass/" target="_blank"> Link aquí </a>
+***
 ## *CV Personal* 🙋🏽‍♀️
 <a href= "https://daivalentini.github.io/FrontendI/CvPersonal/" target="_blank"> Link aquí</a>
 ***
