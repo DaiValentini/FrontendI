@@ -1,6 +1,9 @@
 header {
     @extend %flex-between;
     padding-top: 20px;
+    h1 {
+        margin-left: 20px;
+    }
     nav {
         @media  screen and (max-width:768px) {
             display: none;

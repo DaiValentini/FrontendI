@@ -32,7 +32,7 @@ header, footer {
 main .seccion-banner .banner-texto span, main .seccion-card span {
   background-color: #03faee;
   display: inline-block;
-  height: 20px;
+  height: 25px;
   padding-top: 5px;
 }
 
@@ -73,6 +73,10 @@ image {
 
 header {
   padding-top: 20px;
+}
+
+header h1 {
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -121,7 +125,6 @@ main .seccion-banner .banner-texto {
 }
 
 main .seccion-banner .banner-texto h2 {
-  width: 40%;
   font-size: 30px;
   font-weight: 900;
   color: #000;
@@ -129,6 +132,7 @@ main .seccion-banner .banner-texto h2 {
 }
 
 main .seccion-banner .banner-texto p {
+  margin-top: 20px;
   font-size: 18px;
   font-weight: 400;
   color: #8b8b8b;
@@ -188,13 +192,17 @@ main .seccion-card > div {
 
 @media screen and (max-width: 480px) {
   main .seccion-card > div {
-    width: 70%;
+    width: 80%;
     margin-top: 20px;
   }
 }
 
 main .seccion-card p:nth-child(1) {
   margin-bottom: 20px;
+}
+
+main .seccion-card span {
+  height: 20px;
 }
 
 footer p {
