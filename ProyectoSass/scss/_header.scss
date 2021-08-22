@@ -1,0 +1,17 @@
+header {
+    @extend %flex-between;
+    padding-top: 20px;
+    nav {
+        @media  screen and (max-width:768px) {
+            display: none;
+         }
+    }
+    .hamburguesa {
+        display: none;
+        @media  screen and (max-width:768px) {
+            display: unset;
+            margin-right: 20px;
+         }
+        }
+
+}

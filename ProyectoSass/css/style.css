@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+main .seccion-card > div {
+  width: 25%;
+  height: 250px;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+main .seccion-card p:nth-child(1), footer div li a img {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  -webkit-box-shadow: -2px -2px 2px 2px #03faee;
+          box-shadow: -2px -2px 2px 2px #03faee;
+  text-align: center;
+}
+
+header, footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .seccion-banner .banner-texto span, main .seccion-card span {
+  background-color: #03faee;
+  display: inline-block;
+  height: 20px;
+  padding-top: 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+ul li a {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+image {
+  max-width: 100%;
+}
+
+header {
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  header nav {
+    display: none;
+  }
+}
+
+header .hamburguesa {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header .hamburguesa {
+    display: unset;
+    margin-right: 20px;
+  }
+}
+
+main .seccion-banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: url("../assets/wireframe.svg") no-repeat right;
+  height: 400px;
+}
+
+main .seccion-banner .banner-texto {
+  width: 40%;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  main .seccion-banner .banner-texto {
+    width: 90%;
+  }
+}
+
+main .seccion-banner .banner-texto h2 {
+  width: 40%;
+  font-size: 30px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 5px;
+}
+
+main .seccion-banner .banner-texto p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+main .seccion-banner .banner-texto div {
+  margin-top: 50px;
+}
+
+main .seccion-banner .banner-texto a {
+  background-color: #03faee;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+main .seccion-banner .banner-texto a:hover {
+  -webkit-box-shadow: 2px 2px 2px #8b8b8b;
+          box-shadow: 2px 2px 2px #8b8b8b;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+main .seccion-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  main .seccion-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+main .seccion-card > div {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  main .seccion-card > div {
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  main .seccion-card > div {
+    width: 70%;
+    margin-top: 20px;
+  }
+}
+
+main .seccion-card p:nth-child(1) {
+  margin-bottom: 20px;
+}
+
+footer p {
+  margin-left: 30px;
+}
+
+footer div ul {
+  margin-right: 30px;
+}
+
+footer div li {
+  padding: 10px;
+}
+
+footer div li a {
+  width: 30px;
+}
+
+footer div li a img {
+  border: inherit;
+}
+/*# sourceMappingURL=style.css.map */

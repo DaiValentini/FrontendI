@@ -1,0 +1,73 @@
+main{
+    .seccion-banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: url('../assets/wireframe.svg') no-repeat right;
+    height: 400px;     
+    .banner-texto {
+        width: 40%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @media  screen and (max-width:800px) {
+            width: 90%;
+        }
+            h2 {
+                width: 40%;
+                @include parrafo(30px,900,#000);
+                letter-spacing: 5px;
+        
+            }
+            span {
+                @extend %resaltado;
+            }
+            p {
+                @include parrafo(18px,400,$color-primary)
+            }
+            div {
+                margin-top: 50px;
+            }
+            a{
+                background-color: $bg-primary;
+                padding: 15px;
+                margin-right: 20px;
+                border-radius: 10px;
+                transition: all 0.5s;
+                &:hover {
+                    box-shadow: 2px 2px 2px $color-primary;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .seccion-card {
+        display: flex;
+        justify-content: center;
+        @media  screen and (max-width:768px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        &>div {
+            @extend %card;
+            margin-right: 20px;
+            @media  screen and (max-width:768px) {
+                width: 50%;
+                margin-top: 20px;
+            }
+            @media  screen and (max-width:480px) {
+                width: 70%;
+                margin-top: 20px;
+            }
+
+        }
+        p:nth-child(1) {
+            @extend %numeros;
+            margin-bottom: 20px;
+        }
+        span {
+        @extend %resaltado;
+    }
+            
+    }
+}

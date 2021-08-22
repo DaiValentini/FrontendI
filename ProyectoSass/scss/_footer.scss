@@ -1,0 +1,22 @@
+footer{
+    @extend %flex-between;
+    p {
+        margin-left: 30px;
+    }
+    div {
+        ul {
+        margin-right: 30px;
+    }
+        li {
+          padding: 10px;
+            a {
+                width: 30px;
+                img {
+                    @extend %numeros;
+                    border: inherit;
+                }
+            }
+        
+        }
+    }
+}

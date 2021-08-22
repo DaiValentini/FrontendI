@@ -1,0 +1,27 @@
+%card {
+    width: 25%;
+    height: 250px;
+    background-color: $bg-secondary;
+    padding: 10px;
+}
+%numeros {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    box-shadow: -2px -2px 2px 2px $bg-primary;
+    text-align: center;
+}
+%flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+%resaltado {
+    background-color: $bg-primary;
+    display: inline-block;
+    height: 20px;
+    padding-top: 5px;
+}
