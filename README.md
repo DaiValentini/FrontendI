@@ -1,7 +1,10 @@
 # **Frontend I**
 
 A continuación se listan los proyectos realizados durante el cursado de la materia FrontEnd I, dictada en la carrera de Certified Tech Developer.
-## *Receta Lemon Pie* 🥮  
+## *Mi Portfolio* 🤗
+ <a target= "_blank" href= "https://daivalentini.github.io/FrontendI/Portfolio" target="_blank"> Link aquí </a>
+***
+## *Receta Lemon Pie* 🍰  
  <a target= "_blank" href= "https://daivalentini.github.io/FrontendI/LemonPie/" target="_blank"> Link aquí </a>
 ***
 ## *CV Batman* 🦇  
