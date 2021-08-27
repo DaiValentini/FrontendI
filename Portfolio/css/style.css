@@ -1,0 +1,171 @@
+/* ******* Estilos generales ******* */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+h2,
+h4, h5{
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+hr {
+    width: 50%;
+    margin: 0 auto;
+    height: 100px; 
+    background-color: #000;
+}
+.mi-modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+.mi-modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  text-align: center;
+}
+.mi-modal-footer {
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        /* border-bottom-right-radius: calc(.3rem - 1px);
+        border-bottom-left-radius: calc(.3rem - 1px); */
+
+}
+.boton {
+  color: #fff;
+  background-color: #e5989b;
+  border-color: #e5989b;
+}
+.boton-modal {
+  padding: 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #e5989b;
+  border-color: #e5989b;
+}
+/* ******* Header ******* */
+header{
+    background-color: #ffb4a2;
+}
+header a {
+  text-transform: uppercase;
+  color: white;
+}
+/* ******* Main ******* */
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffcdb2;
+  color: white;
+}
+.personal img {
+  height: 200px;
+}
+h1 {
+    text-transform: uppercase;
+}
+#portfolio {
+  margin: 80px auto;
+}
+.contenedor img {
+  height: 300px;
+}
+.contenedor div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sobre-mi {
+    background-color: #e5989b;
+    padding: 30px;
+}
+#sobre-mi div {
+  width: 70%;
+  margin: 20px auto;
+ 
+}
+#contactame {
+  margin-top: 50px;
+}
+form {
+  width: 60%;
+  margin: 30px auto;
+}
+
+
+/* ******* Footer ******* */
+footer {
+  margin-top: 50px;
+}
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #b5838d;
+  padding: 50px;
+}
+.derechos{
+    background-color: #6d6875;
+}
+.derechos p {
+  text-align: center;
+}
+.iconos-redes {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.icono {
+  font-size: 18px;
+  margin-right: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  padding: 8px;
+}
+/* ******* Media Queries ******* */
+@media screen and (min-width: 992px) {
+  .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #sobre-mi div {
+    display: flex;
+    /* width: 60%;
+        margin: 0 auto; */
+  }
+  #sobre-mi div p {
+    width: 50%;
+    margin: 20px;
+  }
+  .contacto {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+  .contacto p{
+    margin-top: 20px;
+  }
+  form {
+    width: 40%;
+  }
+  .iconos-redes {
+    margin-bottom: 0px;
+  }
+}
